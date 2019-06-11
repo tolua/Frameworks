@@ -2,16 +2,13 @@ package pages;
 
 
 import org.junit.Assert;
-
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
 
 public class LoginPage extends HomePage{
-
 
     @Test
     public void Login(){
@@ -38,6 +35,6 @@ public class LoginPage extends HomePage{
 
     }
 
-
-}
+    }
+    
 

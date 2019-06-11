@@ -5,11 +5,12 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import pages.HomePage;
+
 import java.util.concurrent.TimeUnit;
 
-public class Login_test extends HomePage {
+public class Login_test {
     WebDriver driver = null;
+
     @Test
     public void Login2(){
 
